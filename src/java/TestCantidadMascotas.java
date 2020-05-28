@@ -14,12 +14,16 @@ public class TestCantidadMascotas {
         // TODO code application logic here
         List<Mascota> lista = new ArrayList<>();
         lista = listarMascota();
-        for (int i = 0; i < lista.size(); i++) {
-           System.out.println("Nombre " +lista.get(i).getNombre());
+        int i;
+        for ( i = 1; i < lista.size(); i++) {
+           System.out.println("Nombre " +lista.get(i).getNombre()+ "="+i);
+           
 
             
         }
         
+          System.out.println("Cantidad:"+i);
+ 
         
     }
     
